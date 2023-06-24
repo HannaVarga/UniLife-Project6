@@ -1,0 +1,678 @@
+.homeDetails-container {
+    padding: 90px 120px;
+  }
+  
+  .back-search {
+    font-size: 19px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+    color: #000;
+    text-decoration: none;
+  }
+  
+  .superior-description-container {
+    width: 100%;
+    display: flex;
+  }
+  
+  .photos-container {
+    min-height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    flex: 1;
+  }
+  
+  .photos-container .photo-top img {
+    width: 790px;
+    height: 440px;
+    border-radius: 12px;
+  }
+  
+  .photos-container .photo-bottom {
+    width: 790px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 5px;
+  }
+  
+  .photos-container .photo-bottom img {
+    width: 182px;
+    height: 150px;
+    border-radius: 12px;
+    cursor: pointer;
+  }
+  
+  .home-details-container {
+    border: 1px solid var(--gray-dark);
+    height: 550px;
+    border-radius: 24px;
+  }
+  
+  .address-details {
+    width: 620px;
+    height: 130px;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    margin: 30px auto;
+    border-bottom: 1px solid var(--gray-dark);
+    padding: 20px;
+  }
+  
+  .home-details {
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    line-height: 24px;
+    gap: 40px;
+    margin: 40px auto;
+    padding: 15px;
+  }
+  
+  .home-details .items {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    width: 190px;
+    gap: 20px;
+  }
+  
+  .home-details .items > .bathrooms {
+    font-size: 40px;
+    font-weight: 700;
+    color: var(--secondary);
+  }
+  
+  .home-details .items > .bathrooms svg {
+    font-size: 40px;
+    margin-right: 15px;
+  }
+  
+  .home-details .items > .bedrooms {
+    font-size: 38px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    color: var(--secondary);
+  }
+  
+  .home-details .items > .bedrooms svg {
+    font-size: 48px;
+    margin-right: 15px;
+  }
+  
+  .home-details .items > .prop-type {
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--secondary);
+    margin-top: 5px;
+  }
+  
+  .home-details .items > .price {
+    font-size: 36px;
+    font-weight: 700;
+    color: var(--secondary);
+  }
+  
+  .home-details .items > .furnished {
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: -20px;
+    margin-left: 250px;
+    color: var(--secondary);
+    border-right: none;
+    border-left: none;
+  }
+  
+  .home-details .items > .available {
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--secondary);
+  }
+  
+  .home-details .items span {
+    font-size: 16px;
+    font-weight: 500;
+  }
+  
+  .buttons {
+    margin-top: 65px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .buttons button svg {
+    margin-right: 10px;
+  }
+  
+  .buttons button:nth-child(1) {
+    width: 360px;
+    height: 50px;
+    border-radius: 12px;
+    border: 1px solid var(--gray-dark);
+    background: transparent;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .buttons button:nth-child(2) {
+    width: 360px;
+    height: 50px;
+    border-radius: 12px;
+    background-color: var(--secondary);
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* ---Inferior */
+  .inferior-description-container {
+    width: 100%;
+    height: 800px;
+    display: flex;
+    margin-top: 100px;
+  }
+  
+  .inferior-description-container > .leftSide h2,
+  .inferior-description-container > .rightSide h2 {
+    font-size: 36px;
+    font-weight: 500;
+    padding: 40px 0;
+  }
+  
+  .inferior-description-container > .leftSide {
+    flex: 1;
+  }
+  .inferior-description-container > .leftSide p {
+    font-size: 20px;
+    width: 750px;
+    line-height: 32px;
+  }
+  
+  .inferior-features {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .inferior-features p {
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: 400;
+  }
+  
+  .inferior-features p svg {
+    margin-right: 15px;
+    color: var(--secondary);
+  }
+  
+  /* --inferior right-side */
+  .inferior-description-container .rightSide {
+    flex: 1;
+    margin-left: 80px;
+  }
+  
+  .bedrooms-price {
+    border: 1px solid var(--gray-dark);
+    border-radius: 24px;
+    width: 700px;
+  }
+  
+  .bedrooms-price .bed1 {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--gray-dark);
+  }
+  
+  .bedrooms-price .bed1 p {
+    font-size: 20px;
+    font-weight: 400;
+    padding: 24px;
+  }
+  
+  /* --- Modal --- */
+  .modal-box {
+    width: 936px;
+    height: 690px;
+    padding: 30px;
+    z-index: 100;
+  }
+  
+  .modal-header .contactUs {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+  }
+  
+  .modal-header .contactUs h2 {
+    font-size: 36px;
+    font-weight: 500;
+  }
+  
+  .modal-header .contactUs img {
+    width: 60px;
+    height: 60px;
+  }
+  
+  .modal-header p {
+    font-size: 20px;
+    width: 490px;
+    line-height: 32px;
+    margin-bottom: 100px;
+  }
+  
+  /* ---Form */
+  .book-viewing-form {
+    height: 400px;
+    display: flex;
+  }
+  
+  .book-viewing-form .item {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 36px;
+  }
+  
+  .book-viewing-form label {
+    font-size: 22px;
+    margin-bottom: 8px;
+  }
+  
+  .book-viewing-form input::placeholder {
+    font-size: 16px;
+    color: var(--gray-dark);
+  }
+  
+  .book-viewing-form input {
+    width: 400px;
+    height: 48px;
+    border-radius: 12px;
+    font-size: 20px;
+    padding: 10px;
+    outline: none;
+    border: 1px solid var(--gray-dark);
+  }
+  
+  .book-viewing-form textarea {
+    width: 400px;
+    height: 192px;
+    border-radius: 12px;
+    font-size: 20px;
+    padding: 10px;
+    outline: none;
+    border: 1px solid var(--gray-dark);
+  }
+  
+  .book-viewing-form textarea::placeholder {
+    font-size: 16px;
+    color: var(--gray-dark);
+  }
+  
+  .form-left-side {
+    flex: 1;
+  }
+  
+  .book-viewing-submit-btn {
+    width: 400px;
+    height: 48px;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 600;
+    background-color: var(--secondary);
+    border: none;
+    border-radius: 12px;
+    letter-spacing: 1px;
+    cursor: pointer;
+  }
+  
+  /* ---media query LapTop */
+  @media screen and (max-width: 1500px) {
+    .homeDetails-container {
+      padding: 90px 40px;
+    }
+  
+    .superior-description-container {
+      width: 100%;
+      display: flex;
+    }
+  
+    .photos-container {
+      width: 500px;
+    }
+  
+    .home-details-container {
+      width: 700px;
+    }
+  
+    .home-details {
+      width: 700px;
+    }
+  
+    .photos-container .photo-top img {
+      width: 700px;
+    }
+  
+    .photos-container .photo-bottom {
+      width: 700px;
+    }
+  
+    .photos-container .photo-bottom img {
+      width: 220px;
+      height: 150px;
+      border-radius: 12px;
+    }
+  
+    .home-details .items > .price {
+      font-size: 36px;
+    }
+  
+    .home-details .items > .furnished {
+      margin-left: 250px;
+      margin-top: -25px;
+    }
+  
+    .inferior-description-container > .leftSide p {
+      width: 640px;
+    }
+  
+    .buttons button:nth-child(1) {
+      width: 330px;
+    }
+  
+    .buttons button:nth-child(2) {
+      width: 330px;
+    }
+  
+    .modal-box {
+      height: 665px;
+    }
+  }
+  
+  /* ---media query Laptop */
+  @media screen and (max-width: 1500px) {
+    .superior-description-container {
+      width: 100%;
+      display: flex;
+    }
+  
+    .photos-container .photo-top img {
+      width: 650px;
+    }
+    .photos-container .photo-bottom {
+      width: 650px;
+      gap: 10px;
+    }
+    .photos-container .photo-bottom img {
+      width: 155px;
+    }
+  
+    .home-details-container {
+      width: 650px;
+    }
+    .home-details {
+      width: 680px;
+      gap: 25px;
+      margin-left: -20px;
+    }
+  
+    .buttons {
+      margin-top: 80px;
+    }
+    .buttons button:nth-child(1) {
+      width: 310px;
+    }
+    .buttons button:nth-child(2) {
+      width: 310px;
+    }
+  
+  
+    
+  /* ---Inferior */
+  .inferior-description-container > .leftSide p { 
+    width: 650px;
+  }
+  .bedrooms-price {
+    width: 590px;
+  }
+  }
+  
+  
+  
+  
+  /* ---media query Mobile */
+  @media screen and (max-width: 480px) {
+    .homeDetails-container {
+      padding: 60px 20px;
+    }
+  
+    .superior-description-container {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .photos-container {
+      min-height: 400px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+  
+    .photos-container .photo-top {
+      margin-left: -10px;
+    }
+  
+    .photos-container .photo-top img {
+      width: 405px;
+      height: 240px;
+    }
+  
+    .photos-container .photo-bottom {
+      width: 390px;
+      gap: 5px;
+      padding-bottom: 35px;
+    }
+  
+    .photos-container .photo-bottom img {
+      width: 99px;
+      height: 100px;
+    }
+  
+    .home-details-container {
+      width: 390px;
+      height: 550px;
+    }
+  
+    .address-details {
+      width: 350px;
+      height: 130px;
+      font-size: 24px;
+      margin: 20px;
+      padding: 10px;
+    }
+  
+    .home-details {
+      width: 470px;
+      line-height: 20px;
+      gap: 10px;
+      margin-left: -50px;
+      padding: 5px;
+    }
+  
+    .home-details .items {
+      display: flex;
+      align-items: center;
+      padding: 0px;
+      width: 120px;
+      gap: 10px;
+      margin-bottom: 40px;
+    }
+  
+    .home-details .items > .bathrooms {
+      font-size: 24px;
+    }
+  
+    .home-details .items > .bathrooms svg {
+      font-size: 26px;
+      margin-right: 10px;
+    }
+  
+    .home-details .items > .bedrooms {
+      font-size: 26px;
+    }
+  
+    .home-details .items > .bedrooms svg {
+      font-size: 30px;
+      margin-right: 10px;
+    }
+  
+    .home-details .items > .prop-type {
+      font-size: 16px;
+    }
+  
+    .home-details .items > .price {
+      font-size: 20px;
+    }
+  
+    .home-details .items > .furnished {
+      font-size: 16px;
+      margin-right: 18px;
+      margin-top: -25px;
+    }
+  
+    .home-details .items > .available {
+      font-size: 16px;
+    }
+  
+    .home-details .items span {
+      font-size: 16px;
+      font-weight: 500;
+    }
+  
+    .buttons {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-direction: column;
+      gap: 10px;
+      margin-top: -50px;
+    }
+    .buttons button:nth-child(1) {
+      width: 330px;
+    }
+    .buttons button:nth-child(2) {
+      width: 330px;
+    }
+  
+    /* ---Inferior */
+    .inferior-description-container {
+      height: 1150px;
+      margin-top: 50px;
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .inferior-description-container > .leftSide h2,
+    .inferior-description-container > .rightSide h2 {
+      font-size: 26px;
+      padding: 20px 0;
+    }
+  
+    .inferior-description-container > .leftSide p {
+      font-size: 16px;
+      width: 380px;
+      line-height: 32px;
+    }
+  
+    .inferior-features {
+      margin-top: 50px;
+    }
+  
+    .inferior-features p {
+      margin-bottom: 10px;
+      font-size: 16px;
+    }
+  
+    .inferior-features p svg {
+      margin-right: 15px;
+      color: var(--secondary);
+    }
+  
+    /* --inferior right-side */
+    .inferior-description-container .rightSide {
+      margin-left: 0px;
+      margin-top: 50px;
+    }
+    .bedrooms-price {
+      width: 390px;
+    }
+  
+    /* --- Modal --- */
+    .modal-box {
+      width: 350px;
+      height: 795px;
+      padding: 0px;
+      z-index: 100;
+    }
+    .modal-header .contactUs {
+      display: flex;
+      margin-bottom: 25px;
+      margin-left: -170px;
+    }
+    .modal-header .contactUs h2 {
+      font-size: 32px;
+      margin-left: -70px;
+    }
+    .modal-header .contactUs img {
+      width: 60px;
+      height: 60px;
+    }
+    .modal-box .modal-header p {
+      font-size: 20px;
+      width: 290px;
+      line-height: 30px;
+      margin-bottom: 60px;
+      margin-left: -240px;
+    }
+  
+    /* ---Form */
+    .book-viewing-form {
+      display: flex;
+      flex-direction: column;
+    }
+    .book-viewing-form .item {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 30px;
+    }
+    .book-viewing-form label {
+      font-size: 18px;
+      margin-bottom: 8px;
+    }
+    .book-viewing-form input {
+      width: 350px;
+    }
+    .book-viewing-form textarea {
+      width: 350px;
+    }
+    .book-viewing-submit-btn {
+      width: 350px;
+      font-size: 16px;
+      margin-bottom: 50px;
+    }
+  }
+  

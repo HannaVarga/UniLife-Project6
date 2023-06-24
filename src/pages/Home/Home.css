@@ -1,0 +1,207 @@
+.banner {
+    position: relative;
+    z-index: -100;
+  }
+  
+  /* ----city */
+  .city-container h2 {
+    text-align: center;
+    font-size: 32px;
+    margin: 70px 0px;
+    font-weight: 500;
+  }
+  
+  /* ---Banner compare */
+  .compare-banner-container {
+    width: 82%;
+    height: 488px;
+    background-color: var(--light-bg);
+    margin: 0 auto;
+    border-radius: 24px;
+    padding: 80px 60px;
+  }
+  
+  .compare-banner-container h2 {
+    font-size: 32px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 90px;
+  }
+  
+  .compare-all {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .compare-all img {
+    width: 76px;
+    margin-bottom: 30px;
+  }
+  
+  .compare-all h3 {
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 20px;
+  }
+  
+  .compare-all p {
+    font-size: 20px;
+    color: var(--text);
+    width: 360px;
+    line-height: 32px;
+  }
+  
+  .compare-all .search {
+    text-align: center;
+  }
+  
+  .compare-all .compare {
+    text-align: center;
+  }
+  
+  .compare-all .bills {
+    text-align: center;
+  }
+  
+  /* ---Best Selection  */
+  .best-selection-container {
+    display: flex;
+    width: 95%;
+    height: 588px;
+    margin: 30px auto;
+    border-radius: 24px;
+    padding: 60px 60px;
+  }
+  
+  .left-side {
+    margin-top: 40px;
+    margin-left: 150px;
+  }
+  
+  .best-selection {
+    display: flex;
+  }
+  .best-selection img {
+    width: 52px;
+    height: 52px;
+  }
+  
+  .your-favorite {
+    display: flex;
+  }
+  
+  .your-favorite img {
+    width: 52px;
+    height: 50px;
+  }
+  
+  .content {
+    width: 520px;
+  }
+  .content h3 {
+    font-size: 26px;
+    font-weight: 500;
+    margin: 0 0 20px 30px;
+  }
+  
+  .content p {
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0 0 40px 30px;
+    line-height: 30px;
+    color: var(--text);
+  }
+  
+  .search-compare-btn {
+    color: #fff;
+    background-color: var(--secondary);
+    font-weight: 500;
+    font-size: 18px;
+    padding: 12px 0px;
+    border: none;
+    border-radius: 12px;
+    width: 220px;
+    margin-left: 80px;
+    cursor: pointer;
+  }
+  
+  /* ---Right-side */
+  .right-side {
+    margin-left: 130px;
+  }
+  .right-side img {
+    width: 700px;
+    height: 650px;
+    margin: -70px auto;
+  }
+  
+  /* ---media query LapTop */
+  @media screen and (max-width: 1500px) {
+    .best-selection-container {
+      width: 95%;
+    }
+  
+    .left-side {
+      margin-left: 50px;
+    }
+  
+    .right-side {
+      margin-left: 20px;
+    }
+  
+    .right-side img {
+      width: 650px;
+      height: 600px;
+      margin: -70px auto;
+    }
+  }
+  
+  /* ---media query Mobile */
+  @media screen and (max-width: 480px) {
+    .city-container h2 {
+      font-size: 24px;
+      padding: 0 10px;
+    }
+  
+    .compare-banner-container {
+      width: 89%;
+      height: 980px;
+      padding: 50px 20px;
+      margin-bottom: 80px;
+    }
+  
+    .compare-banner-container h2 {
+      margin-bottom: 60px;
+    }
+  
+    .compare-all {
+      flex-direction: column;
+    }
+  
+    .compare-all h3 {
+      font-size: 22px;
+      margin-bottom: 10px;
+    }
+  
+    .compare-all p {
+      margin-bottom: 60px;
+    }
+  
+    .compare-all .search {
+      text-align: center;
+    }
+  
+    .compare-all .compare {
+      text-align: center;
+    }
+  
+    .compare-all .bills {
+      text-align: center;
+    }
+  
+    .best-selection-container{
+      display: none;
+    }
+  }
+  

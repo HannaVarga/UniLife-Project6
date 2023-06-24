@@ -1,0 +1,82 @@
+.searchForRooms-container {
+    width: 80%;
+    height: 170px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.08);
+    background-color: #fff;
+    margin: 0 auto;
+  }
+  
+  .searchRoom {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -70px;
+    padding: 40px 30px;
+  }
+  
+  .items {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .items label {
+    font-size: 22px;
+    margin-bottom: 8px;
+    font-weight: 600;
+    outline: none;
+  }
+  
+  .items select {
+    width: 278px;
+    height: 48px;
+    border-radius: 12px;
+    border: 1px solid var(--gray);
+    font-size: 17px;
+    padding-left: 10px;
+    outline: none;
+    background-color: #fff;
+    
+  }
+  
+  /* ---media query Laptop */
+  @media screen and (max-width: 1500px){
+    .items select {
+      width: 258px;  
+    }
+  }
+  
+  
+  
+  /* ---media query Mobile */
+  @media screen and (max-width: 480px) {
+    .searchForRooms-container {
+      width: 90%;
+      height: 280px;
+      border-radius: 20px;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.08);
+      background-color: #fff;
+    }
+  
+    .searchRoom {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+      margin-top: -120px;
+      padding: 30px;
+    }
+  
+    .items {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .items label {
+      display: none;
+    }
+  
+    .items select {
+      width: 320px;
+      margin-bottom: 10px;
+    }
+  }
+  

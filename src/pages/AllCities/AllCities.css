@@ -1,0 +1,99 @@
+.banner-allCities {
+    position: relative;
+    z-index: -100;
+  }
+  .banner-allCities img {
+    width: 100%;
+    height: 450px;
+  }
+  .banner-allCities .banner-text {
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .banner-allCities .banner-text p:nth-child(1) {
+    color: #fff;
+    font-size: 64px;
+    width: 770px;
+    font-weight: 500;
+    margin-left: 50px;
+  }
+  .banner-allCities .banner-text p:nth-child(2) {
+    color: #fff;
+    font-weight: 400;
+    font-size: 22px;
+    margin-top: 50px;
+    line-height: 30px;
+  }
+
+
+  /* ---city Grid */
+  .allCities h3{
+    text-align: center;
+    font-size: 32px;
+    font-weight: 500;
+    margin-top: 60px ;
+  }
+
+  .allCities-grid {
+    height: 70vh;
+    width: 82%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 100px auto;
+    justify-content: space-between;
+  }
+
+  .allCities-content{
+    width: 350px;
+    height: 98px;
+    border: 1px solid var(--gray);
+    border-radius: 24px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--secondary);
+  }
+
+  .allCities-content:hover{
+    background-color: var(--secondary);
+    color: #fff;
+  }
+
+  .allCities-content p{
+    font-size: 28px;
+    font-weight: 600;
+  }
+
+  .allCities-grid a{
+    text-decoration: none;
+  }
+
+
+
+  /* ---media query LapTop */
+@media screen and (max-width: 1500px){
+ .allCities-grid {
+    height: 95vh;
+    width: 90%;
+  }
+
+  }
+  
+  
+  
+  /* ---media query Mobile */
+  @media screen and (max-width: 480px){
+    .allCities-grid {
+      height: 250vh;
+      width: 82%;
+      flex-wrap: wrap;
+      margin: 60px auto;
+      justify-content: space-between;
+      gap: 20px;
+    }
+  
+  }

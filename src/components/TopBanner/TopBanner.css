@@ -1,0 +1,48 @@
+.banner-text {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .banner-text p:nth-child(1) {
+    color: #fff;
+    font-size: 64px;
+    width: 870px;
+    font-weight: 500;
+    margin: 80px auto;
+  }
+  .banner-text p:nth-child(2) {
+    color: #fff;
+    font-weight: 500;
+    font-size: 24px;
+    margin: 60px auto;
+    line-height: 35px;
+    width: 750px;
+    color: var(--gray);
+  }
+  
+  .overlay {
+    background: #000;
+    background: linear-gradient(90deg, #000, hsla(0, 0%, 100%, 0));
+    height: 450px;
+    width: 100%;
+  }
+  
+  
+  /* ---media query Mobile */
+  @media screen and (max-width: 480px) {
+    .banner-text p:nth-child(1) {
+      font-size: 41px;
+      width: 350px;
+  
+      margin: 60px auto;
+    }
+    .banner-text p:nth-child(2) {
+      font-size: 20px;
+      margin: 40px auto;
+      line-height: 30px;
+      width: 380px;
+    }
+  }
+  
