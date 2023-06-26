@@ -8,6 +8,7 @@ import CityDetails from "./pages/CityDetails/CityDetails";
 import HomeDetailsPage from "./pages/HomeDetailsPage/HomeDetailsPage";
 import Favorites from "./pages/Favorites/Favorites";
 import FavoriteContextProvider from "./context/favoriteContext";
+// import react from "react"
 
 function App() {
   return (

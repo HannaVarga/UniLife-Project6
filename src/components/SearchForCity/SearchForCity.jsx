@@ -1,5 +1,5 @@
 import React from 'react'
-import './SearchCity.css'
+import './SearchForCity.css'
 import { useState, useEffect } from "react";
 import axios from "axios";
 import { Link, useParams, useNavigate } from "react-router-dom";

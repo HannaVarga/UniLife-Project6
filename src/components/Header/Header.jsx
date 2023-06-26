@@ -1,4 +1,5 @@
-import React from 'react'
+import React,{useState} from 'react'
+
 import "./Header.css";
 import logo from "../../assets/images/Vector.svg";
 import { BsSuitHeart, BsEnvelope } from "react-icons/bs";

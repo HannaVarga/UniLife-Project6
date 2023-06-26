@@ -2,7 +2,7 @@ import React from "react";
 import { useState, useEffect } from "react";
 import axios from "axios";
 import { Link, useParams } from "react-router-dom";
-import TopBanner from "./../../components/TopBanner/TopBanner";
+import TopBanner from "../../components/TopBanner/TopBanner";
 import SearchForRooms from "../../components/SearchForRooms/SearchForRooms";
 import PropertyCards from "../../components/PropertyCards/PropertyCards";
 import testimonial from "../../assets/images/testimonial.png";

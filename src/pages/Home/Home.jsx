@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./Home.css";
 import { Link } from "react-router-dom";
 import banner from "../../assets/images/downtown.jpg";
-import SearchCity from "../../components/SearchForCity/SearchCity";
+import SearchCity from "../../components/SearchForCity/SearchForCity";
 import CityCards from "../../components/CityCards/CityCards";
 import searchIcon from "../../assets/images/search-icon.png";
 import compareIcon from "../../assets/images/compare-icon.png";
@@ -77,7 +77,7 @@ function Home() {
                 <h3>Best selection</h3>
                 <p>
                   Best selection of student accommodations. Never been easier to
-                  find a home that’s right for you.
+                  find a home that's right for you.
                 </p>
               </div>
             </div>
